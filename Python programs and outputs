@@ -422,3 +422,113 @@ outut
   enter the exponential value:3
   result:125
 
+PROGRAM:
+def maximum(list1):
+    max = list1[0]
+    for x in list 1:
+        if x>max:
+           max=x
+    return max
+list1=[2,3,5,9]
+print("the maximum number in the list:",maximum(list1))
+  
+
+OUTPUT:
+  the maximum number in the list :9
+ 
+
+
+PROGRAM:
+def fibonacei(n)
+    if n <= 1:
+       return n
+    else:
+       return (fibonacei(n-1) + fibonacei(n-2))
+    endif
+term= int(input("enter no. of terms:"))
+    if term<=0:
+      print("please enter positive number")
+    else:
+      print("fibonacei sequence:")
+    for i in range(term):
+      print fibonacei(i)
+    endif
+ 
+OUTPUT:
+enter no. of terms: 6
+fibonacei sequence
+0
+1
+1
+2
+3
+5
+
+
+
+PROGRAM:
+num=int(input("enter an integer number:',))
+divisor=2
+prime true
+while divisor<=num//2
+    if num% divisor=0
+    prime=false
+    print("the given is not a prime number")
+    break
+   divisor+ = 1
+    if prime 
+    print("given number is prime number")
+ 
+OUTPUT:
+enter an integer number = 3
+given number is a prime number
+
+
+
+PROGRAM:
+num= int(input("enter a number:",))
+sum=0
+temp=num
+while temp!=0:
+    digit = temp%10
+    sum + = digit**3
+    temp//=10
+if num==sum
+    print("given number is an armstrong no.")
+else:
+    print("given number is not an armstrong no.")
+
+OUTPUT:
+enter a number:370
+given number is an armstrong no.
+
+
+
+PROGRAM:
+num=int(input("enter an integer number:",))
+rev=0
+temp= num
+while(temp>0)
+    rev=(10*rev)+temp%10
+    temp//10
+if rev== num:
+    print("the given number is palindrome")
+else:
+    print("the given number is not palindrome")
+
+OUTPUT:
+enter an integer number=120
+the given number is not palindrome
+
+
+
+PROGRAM:
+ch= input("enter a character:")
+if ch in 'a','A','e','E','i','I','o','O','u','U':
+    print ("the given character is a vowel")
+else:
+    print ("the given character is not a vowel")
+
+OUTPUT: 
+enter a character:a
+the given character is a vowel
