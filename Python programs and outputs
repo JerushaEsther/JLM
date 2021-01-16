@@ -253,3 +253,172 @@ enter a:5
 enter b:3
 the sum is: 8.0
 the avg is: 4.0
+
+PROGRAM:
+    a=int(input("enter the value of first variable:"))
+    b=int(input("enter the value of second variable:"))
+    a=a+b
+    b=a-b
+    a+a-b
+    print("a is:",a)
+    print("b is:",b)
+ 
+output
+   first variable:5
+   second variable:7
+   a is:7
+   b is:5
+ 
+
+Program:
+    def rotate(a,b):
+    new_list=a[b:]+a[:b]
+    return new_list
+    example_list=[1,2,3,4,5,6,7,8,9]
+    mylist1=rotate(example_list,1)
+    mylist2=rotate(example_list,-2)
+    print(mylist1)
+    print(mylist2)
+ 
+output: 
+    [2,3,4,5,6,7,8,9,1]
+    [8,9,1,2,3,4,5,6,7]
+
+
+PROGRAM:
+    import math
+    x1=int(input("enter x coordinate of first point:"))
+    y1=int(input("enter y coordinate of first point:"))
+    x2=int(input("enter x coordinate of second point:"))
+    y2=int(input("enter y coordinate of second point:"))
+    dist=math.aqrt(math.pow(x1-x2,2)+math.pow(y1-y2,2))
+    print("the distance two point is:",dist)
+
+output
+ Enter x-coordinate of first point:3
+ Enter y-coordinate of first point:7
+ Enter x-coordinate of second point:-4
+ Enter y-coordinate of second point:-8
+ Distance=16.552935724685
+
+
+
+PROGRAM:
+    val1=50
+    val2=90
+    print("val1=",val1,"val2="val2)
+    (val1,val2)=(val2,val10
+    print("val1=",val1,"val2=",val2)
+
+output
+  val1=50    val2=90
+  val1=90    val2=50
+
+
+
+PROGRAM;
+    num=int(input("enter the value of num:"))
+    amt+float(input("enter the value of amt:"))
+    pi=float(input("enter the value of pi:"))
+    code=str(input(enter the value of code:"))
+    population_of_india=int(input(:enter the value of population of india:"))
+    msg=str(input("enter the value of message:"))
+    # print the value of variables
+    print("NUM="+str(num)="\n AMT="+str(amt)+"\n CODE="+str(code)+"\n population of india="=str(population_of_india+"\n MESSAGE=str(msg))
+
+output
+  Enter the value of num:6
+  enter the value of amt:9000
+  enter the value of pi:3.14
+  enter the value of code:w
+  enter the value of population of india:45565000000
+  enter the value of message :GOOD MORNING
+  NUM=6
+  AMT=9000
+  CODE=W
+  POPULATION OF INDIA=45565000000
+  MESSAGE=GOOD MORNING
+
+
+
+PROGRAM
+    num1=float(input("enter the number:"))
+    num2=float(input("enter the number:"))
+    add_res=num1+num2
+    sub_res=num1-num2
+    mul_res=num1*num2
+    div_res=num1/num2
+    print(str(num1)+"="+str(num2)+"="+"%2f"%add_res)
+    print(str(num1)+"-"+str(num2)+"="+"%2f"%sub_res)
+    print(str(num1)+"*"+str(num2)+"="+"%2f"%mul_res)
+    print(str(num1)+"/"+str(num2)+"="+"%2f"%div_res)
+
+output
+  enter the number:20
+  enter the number:2
+  20+2=22
+  20-2=18
+  20*2=40
+  20/2=10
+
+
+PROGRAM
+   quantity=float(input("enter the quantity of product:"))
+   prince=float(input("enter the price amount:"))
+   discount=float(input("enter the discount percent:"))
+   value=quantity*price
+   discount=(value)*(discount/100)
+   GST=value*0.18
+   bill=value+GST-discount
+   print("the total bill amount is:",bill))
+
+Output
+   enter the quantity of product:3
+   enter the price amount:100
+   enter the discount percent:10
+   the total bill amount is:324
+
+
+
+program
+    day=24
+    minute=60
+    hour=minute*60
+    seconds=hour*day
+    print("the number of seconds in a day:",seconds)
+  
+
+output 
+  the number of seconds in a day :86400
+
+
+
+Program
+    def newton_method(number,number_items=100):
+      a=float(number)#number to get square root of
+      for i in range(number_items):#iteration numbers
+    #x_(n+1)=0.5*(x_n+a/x_n)
+      return number
+    print(newtom=n_method(25))
+  
+output
+  5
+
+
+
+PROGRAM
+    def power(base,exp):#function declaration
+      if(exp==1):
+         return(base)
+      if(exp!=1):
+         return(base*power(base,exp-1))
+    base=int(intput("enter the base number:"))
+    exp=int(input("enter the exponential value:"))
+    print("result:",power(base,exp))#calling the function
+
+
+outut
+  enter the base number:5
+  enter the exponential value:3
+  result:125
+
