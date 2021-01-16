@@ -1,0 +1,170 @@
+Program:
+      def fact(n):
+      if n==0:
+         return 1
+      else
+         return n*fact(n-1)
+      print(fact(0))
+      print(fact(1))
+  
+
+output:
+1 
+1
+    
+Result: 
+     The program of the given condition is executed sucessfully.
+
+
+
+
+Program:
+  year=int(input("enter a year: "))
+  if year%4==0:
+  print(year,"is a leap year")
+  else
+  print(year,"is not a leap year")
+  
+
+output:
+  enter year : 2006
+  2006,is not a leap year
+
+Result:
+  The program for the given condition is executed successfully
+  
+
+
+
+Program:
+  num=float(input("enter a number: "))
+  if num>0:
+  print("positive number")
+  elif num==0
+  print("zero")
+  else
+  print("negative number")
+ 
+output:
+  enter a number: 5
+  positive number
+
+Result: 
+  The program for the given condition is executed successfully
+  
+
+
+
+Program:
+  n=int(input("Enter a number: "))
+  if n%2==0 
+  print("the number is even")
+  else
+  print("the number is odd")
+
+Output: 
+  n=50
+  the number is even
+
+Result: 
+  The program for the given condition is executed successfully
+
+
+
+Program: 
+  list=[7,8,9,0,2]
+  initialize I=0:
+  count= C:
+  first element=Min
+  while I<C-1:
+  next element= Max
+  if Max<Min:
+     Min=Max
+    I=I+1:
+   print min
+
+
+Output: 
+   o
+
+Result:
+  The program for the given condition is executed successfully
+
+
+
+
+Program
+  a=100
+  b=500
+  temp=a
+  a=b
+  b=temp
+  print(a,b)
+  
+output: 
+   500,100
+
+Result:
+  The program for the given condition is executed successfully
+
+
+
+
+Program: 
+  import math
+  x=10
+  y=20
+  print("the gcd of x aand y is:",math,gcd(x,y))
+
+output:
+  the gcd of x and y is 10
+
+Result:
+  The program for the given condition is executed successfully
+
+
+
+Program 
+  p=float(input("enter the principal amount:"))
+  r=float(input("enter the rate of interest:"))
+  t=float(input("enter the time in years:"))
+  CI=p*(pow(1+r/100),t))
+  print("principal amount:",p)
+  print("interest rate:",r)
+  print("time in years:",t)
+  print("compound interest;",CI)
+
+output
+  enter the principal amount:5000
+  enter the rate of interest:5
+  enter the time in years: 5
+  principal amount:5000
+  rate of interest:5
+  time in years:5
+  compound interset:1381.4078125000015
+  
+Result: 
+  The program for the given condition is executed successfully
+
+
+
+
+Program 
+  import random 
+  hidden=random.randrange(1,50)
+  guess=int(input("enter your guess:"))
+  if guess==hidden:
+  print("hit")
+  elif guess<hidden:
+  print("your guess is too low")
+  else:
+  print("your guess is too high")
+   
+Output: 
+  enter your guess:45
+  the guess is too high
+  
+Result:
+  The program for the given condition is executed successfully
+
+
