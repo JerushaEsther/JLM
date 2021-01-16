@@ -167,4 +167,89 @@ Output:
 Result:
   The program for the given condition is executed successfully
 
+PROGRAM
+def sumofarray(arr):
+    total=0
+    for item in arr:
+        total+=item
+    return t0tal
+print (sumofarray ([1,2,3,4,5]))
 
+OUTPUT:
+15
+
+
+
+
+
+PROGRAM:
+def linearsearch(arr,x,n):
+    for i in range(n):
+        if (arr[i]==x): 
+            return(i)
+    return(-1)
+arr[1,2,3,4,5,6,7]
+x=int(input("enter the element to be searched"))  
+n=len(arr)
+lin=linearsearch(arr,x,n)
+if(lin==-1):
+    print("element not found")
+else:
+    print("element found at index:",lin)   
+
+OUTPUT:
+enter the element to be searched 5
+element found at index :4
+
+
+
+
+
+PROGRAM:
+def binarysearch (arr,start,end,x):
+    if end>=start:
+        mid=start+(end-start)//2
+        if arr[mid]==x:
+            return mid
+        elif arr[mid]>x:
+            return binarysearch(arr,start,mid-1,x)
+        else:
+            return binarysearch (arr,mid+1,end,x)
+    else: 
+            return -1
+arr=[1,2,3,4,5,6,7,8,9,10]
+x=int(input("enter the element to be searched:"))
+result=binarysearch(arr,0,len(arr)-1,x)
+if result!=1:
+        print("element is present at index",result)
+else:
+        print("element is not present in array")
+
+
+OUTPUT:
+enter the element to be searched:7
+elenent is present at index 6
+
+
+
+
+
+PROGRAM:
+def sum(a,b):
+    sum=a+b
+    return sum
+def avg (sum):
+    avg=sum/2
+    return avg
+a=float(input("enter a:"))
+b=float(input("enter b:"))
+add=sum(a,b)
+avg=avg(add)
+print("the sum is:",add)
+print("the avg is:",avg)
+
+OUTPUT:
+enter a:5
+enter b:3
+the sum is: 8.0
+the avg is: 4.0
