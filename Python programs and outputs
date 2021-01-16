@@ -532,3 +532,88 @@ else:
 OUTPUT: 
 enter a character:a
 the given character is a vowel
+
+
+Program:
+weekday=int(input("enter weekday number(1-7):"))
+if weekday==1:
+    print("monday")
+elif weekday==2:
+    print("tuesday")
+elif weekday==3:
+    print("wednesday")
+elif weekday==4:
+    print("thursday")
+elif weekday==5:
+    print("friday")
+elif weekday==6:
+    print("saturday")
+elif weekday==7:
+    print("sunday")
+else :
+    print("please enter weekday number between 1-7")
+ 
+Output:
+enter weekday number(1-7):7
+sunday
+
+
+
+Program:
+b=input("enter a character:")
+print("is it a number:",b.isdigit())
+print("is it an alphabet;",b.isalpha())
+print("is it lowercase:",b.islower())
+print("is it uppercase:",b.isypper())
+
+Output:
+enter a character:j
+is it a number: False
+is it an alphabet; True
+is it lowercase: True
+is it upper case: False
+
+
+Program:
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+c=int(input("enter a number:"))
+dis=(b**2)-(4*a*c)
+ans1=(-b-(math.sqrt(dis))/(2*a):
+ans2=(-b+(math.sqrt(dis))/(2*a):
+print("the roots are:")
+print(ans1)
+print(ans2)
+
+Output:
+enter a number:2
+enter a munber:3
+enter a number:4
+the roots are:
+(-0.75-1.989578808281798j)
+(-0.75+1.989578808281798j)
+
+
+
+Program:
+for i in range(20):
+    print('*',end="")
+
+Output:
+20
+********************20
+
+
+Program:
+def sum(n):
+    i=1
+    s=0.0
+    for i in range (1,n+1):
+        s=s+1/i
+    return s;
+n=int(input("enter a number:"))
+print("sum is",(sum(n)))
+
+Output:
+enter a number:3
+sum is 1.8333333333333333
